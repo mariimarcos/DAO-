@@ -22,5 +22,5 @@ Este projeto é um exemplo de implementação do padrão DAO em Java, com armaze
 
 ### Instruções de Uso
 
-1. Execute a classe `Main.java` para testar a implementação com armazenamento em banco de dados.
+1. Execute a classe `Product.java` para testar a implementação com armazenamento em banco de dados.
 2. Observe os resultados no console.
