@@ -1,0 +1,9 @@
+import java.util.List;
+
+public interface ProductDAO {
+    void create(Product product);
+    Product getById(int id);
+    List<Product> getAll();
+    void update(Product product);
+    void delete(Product product);
+}
