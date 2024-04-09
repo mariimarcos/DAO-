@@ -1,9 +1,18 @@
 import java.util.List;
 
 public interface ProductDAO {
+    // Cria um novo produto
     void create(Product product);
+    
+    // Obtém um produto pelo seu ID
     Product getById(int id);
+    
+    // Obtém todos os produtos
     List<Product> getAll();
+    
+    // Atualiza as informações de um produto
     void update(Product product);
+    
+    // Deleta um produto
     void delete(Product product);
 }
